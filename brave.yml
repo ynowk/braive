@@ -1,0 +1,8 @@
+common:
+    disable_log: true
+    args: 
+      - --proxy-server=socks5://127.0.0.1:10808
+    env: {}
+    app_path: ""
+app:
+    cleanup: true
